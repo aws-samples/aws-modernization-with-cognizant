@@ -2,7 +2,7 @@ baseURL = "/"
 languageCode = "en-US"
 defaultContentLanguage = "en"
 
-title = "AWS-Modernization-With-Cprime"
+title = "AWS-Modernization-With-Cognizant"
 theme = "hugo-theme-learn"
 metaDataFormat = "yaml"
 defaultContentLanguageInSubdir= "true"
@@ -17,7 +17,7 @@ enableEmoji = true
   # Author of the site, will be used in meta information
   author = "James Bland"
   # Description of the site, will be used in meta information
-  description = "AWS-Modernization-With-Cprime"
+  description = "AWS-Modernization-With-Cognizant"
   # Shows a checkmark for visited pages on the menu
   showVisitedLinks = true
   # Disable search function. It will hide search bar
