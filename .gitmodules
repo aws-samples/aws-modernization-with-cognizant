@@ -1,12 +1,3 @@
-[submodule "cfn/vpc-with-cloud9"]
-	path = cfn/vpc-with-cloud9
-	url = https://github.com/jamesbland123/vpc-with-cloud9.git
 [submodule "themes/learn"]
 	path = themes/learn
 	url = https://github.com/jamesbland123/hugo-theme-learn.git
-[submodule "WebGoat"]
-	path = WebGoat
-	url = https://github.com/WebGoat/WebGoat.git
-[submodule "WebGoat-Lessons"]
-	path = WebGoat-Lessons
-	url = https://github.com/WebGoat/WebGoat-Lessons.git
