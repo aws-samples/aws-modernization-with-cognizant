@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Module 3: Functional Assurance  on AWS DevSecOps Modernization Workshop</title>
+    <link>https://aws-hugo.web.app/46_functional_assurance.html</link>
+    <description>Recent content in Module 3: Functional Assurance  on AWS DevSecOps Modernization Workshop</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 11 Aug 2019 19:21:12 -0700</lastBuildDate>
+    
+	<atom:link href="https://aws-hugo.web.app/46_functional_assurance/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Introduction</title>
+      <link>https://aws-hugo.web.app/46_functional_assurance/1_introduction.html</link>
+      <pubDate>Sun, 11 Aug 2019 19:21:12 -0700</pubDate>
+      
+      <guid>https://aws-hugo.web.app/46_functional_assurance/1_introduction.html</guid>
+      <description>Objective: To validate application&amp;rsquo;s functional behavior such as business process, user workflows &amp;amp; regression impact against the pre-defined outcomes Functional behaviors are “what” the system should do. Functional testing evaluates if functions perform as expected. Functional requirements may be described and documented in business requirements specifications, epics, user stories, use cases, (or) functional specifications, or they may be undocumented.
+These tests should be performed at all test levels, though the focus is different at each level.</description>
+    </item>
+    
+    <item>
+      <title>Build &amp; Execute</title>
+      <link>https://aws-hugo.web.app/46_functional_assurance/2_build_execute.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://aws-hugo.web.app/46_functional_assurance/2_build_execute.html</guid>
+      <description>PIPELINE CREATION AND EXECUTION Please complete the Module 2: Post-Build QA before commencing with this module. This will ensure you have deployed the build on the server successfully before executing the Functional test suits during this module.
+ Execute the cloud formation template from Cloud9 to automatically create the Functional Assurance pipeline.
+aws cloudformation create-stack --stack-name FunctionalAssurance --template-url https://aws-wrkshp-artifacts.s3-eu-west-1.amazonaws.com/awsworkshop_infrastructure_artefacts/awsworkshop_functional_assurance.json --capabilities CAPABILITY_NAMED_IAM Go to the CloudFormation console and check the status of your pipeline stack creation named &amp;lsquo;FunctionalAssurance&amp;rsquo;.</description>
+    </item>
+    
+    <item>
+      <title>Debug &amp; Fix</title>
+      <link>https://aws-hugo.web.app/46_functional_assurance/3_debug_fix.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://aws-hugo.web.app/46_functional_assurance/3_debug_fix.html</guid>
+      <description>DEBUGGING AND RE-EXECUTION Access the reporting dashboard page, refresh to see the failure status and the error message: icon on AWS console to be used to check the error message below:&amp;lt; org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&amp;quot;method&amp;quot;:&amp;quot;css selector&amp;quot;,&amp;quot;selector&amp;quot;:&amp;quot;#productsearch&amp;quot;} &amp;gt;
+Such errors indicate that the automation script is unable to locate the object on the screen as properties of that UI object have seemingly changed since the last build.</description>
+    </item>
+    
+    <item>
+      <title>Report &amp; Analysis</title>
+      <link>https://aws-hugo.web.app/46_functional_assurance/4_test_reports_analysis.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://aws-hugo.web.app/46_functional_assurance/4_test_reports_analysis.html</guid>
+      <description>TEST REPORT ANALYSIS You can find in the S3 buckets, the output artifacts i.e. reports and other files, as follows:
+Note - You can get the name of the S3 Bucket from Secret Manager – ‘Reports’ noted under section ‘Getting Started.’
+You can now refresh the reporting dashboard and review the test results for this pipeline. Refer the screenshot as shown below:
+See test summary of the recently executed Functional Assurance pipeline.</description>
+    </item>
+    
+    <item>
+      <title>Tikk Talk</title>
+      <link>https://aws-hugo.web.app/46_functional_assurance/5_tikk_talk.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://aws-hugo.web.app/46_functional_assurance/5_tikk_talk.html</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Summary</title>
+      <link>https://aws-hugo.web.app/46_functional_assurance/30_summary.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://aws-hugo.web.app/46_functional_assurance/30_summary.html</guid>
+      <description>Testing in DevOps essentially means testing early and testing often. Thus, it is implicit that functional automation must go beyond the traditional UI based tests, to leverage other architectural components such as data and services. This speeds up test execution and helps with shift left as now you can validate these components as soon as they are developed, rather than waiting for the Development team to deliver a working UI.</description>
+    </item>
+    
+  </channel>
+</rss>

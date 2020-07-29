@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://aws-hugo.web.app/45_build_deploy_assurance/1_introduction.html</loc>
+    <lastmod>2019-08-11T19:21:12-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://aws-hugo.web.app/46_functional_assurance/1_introduction.html</loc>
+    <lastmod>2019-08-11T19:21:12-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://aws-hugo.web.app/47_experience_assurance/1_introduction.html</loc>
+    <lastmod>2019-08-11T19:21:12-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://aws-hugo.web.app/48_end_to_end_testing_assurance/1_introduction.html</loc>
+    <lastmod>2019-08-11T19:21:12-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://aws-hugo.web.app/</loc>
+    <lastmod>2019-08-11T19:21:12-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://aws-hugo.web.app/60_clean_up/1_cleanup.html</loc>
+  </url>
+  
+  <url>
+    <loc>https://aws-hugo.web.app/10_prerequisites/1_aws_account.html</loc>
+  </url>
+  
+  <url>
+    <loc>https://aws-hugo.web.app/30_pre_build_quality_assurance/1_introduction.html</loc>
+  </url>
+  
+  <url>
+    <loc>https://aws-hugo.web.app/50_conclusion/1_recap.html</loc>
+  </url>
+  
+  <url>
+    <loc>https://aws-hugo.web.app/30_pre_build_quality_assurance/2_build_execute.html</loc>
+  </url>
+  
+  <url>
+    <loc>https://aws-hugo.web.app/45_build_deploy_assurance/2_build_execute.html</loc>
+  </url>
+  
+  <url>
+    <loc>https://aws-hugo.web.app/46_functional_assurance/2_build_execute.html</loc>
+  </url>
+  
+  <url>
+    <loc>https://aws-hugo.web.app/47_experience_assurance/2_build_execute.html</loc>
+  </url>
+  
+  <url>
+    <loc>https://aws-hugo.web.app/48_end_to_end_testing_assurance/2_build_execute.html</loc>
+  </url>
+  
+  <url>
+    <loc>https://aws-hugo.web.app/10_prerequisites/2_create_a_cognizant_account_to_access_workshop_content.html</loc>
+  </url>
+  
+  <url>
+    <loc>https://aws-hugo.web.app/30_pre_build_quality_assurance/3_debug_fix.html</loc>
+  </url>
+  
+  <url>
+    <loc>https://aws-hugo.web.app/46_functional_assurance/3_debug_fix.html</loc>
+  </url>
+  
+  <url>
+    <loc>https://aws-hugo.web.app/47_experience_assurance/3_debug_fix.html</loc>
+  </url>
+  
+  <url>
+    <loc>https://aws-hugo.web.app/50_conclusion/3_next_step.html</loc>
+  </url>
+  
+  <url>
+    <loc>https://aws-hugo.web.app/45_build_deploy_assurance/3_test_reports_analysis.html</loc>
+  </url>
+  
+  <url>
+    <loc>https://aws-hugo.web.app/48_end_to_end_testing_assurance/3_test_reports_analysis.html</loc>
+  </url>
+  
+  <url>
+    <loc>https://aws-hugo.web.app/50_conclusion/4_final_thoughts.html</loc>
+  </url>
+  
+  <url>
+    <loc>https://aws-hugo.web.app/30_pre_build_quality_assurance/4_test_reports_analysis.html</loc>
+  </url>
+  
+  <url>
+    <loc>https://aws-hugo.web.app/46_functional_assurance/4_test_reports_analysis.html</loc>
+  </url>
+  
+  <url>
+    <loc>https://aws-hugo.web.app/47_experience_assurance/4_test_reports_analysis.html</loc>
+  </url>
+  
+  <url>
+    <loc>https://aws-hugo.web.app/48_end_to_end_testing_assurance/4_ai_driven_qa.html</loc>
+  </url>
+  
+  <url>
+    <loc>https://aws-hugo.web.app/45_build_deploy_assurance/4_the_enablers.html</loc>
+  </url>
+  
+  <url>
+    <loc>https://aws-hugo.web.app/30_pre_build_quality_assurance/5_tikk_talk.html</loc>
+  </url>
+  
+  <url>
+    <loc>https://aws-hugo.web.app/45_build_deploy_assurance/5_tikk_talk.html</loc>
+  </url>
+  
+  <url>
+    <loc>https://aws-hugo.web.app/46_functional_assurance/5_tikk_talk.html</loc>
+  </url>
+  
+  <url>
+    <loc>https://aws-hugo.web.app/47_experience_assurance/5_tikk_talk.html</loc>
+  </url>
+  
+  <url>
+    <loc>https://aws-hugo.web.app/48_end_to_end_testing_assurance/5_tikk_talk.html</loc>
+  </url>
+  
+  <url>
+    <loc>https://aws-hugo.web.app/05_introduction/10_devops_puts_testing_at_the_core.html</loc>
+  </url>
+  
+  <url>
+    <loc>https://aws-hugo.web.app/05_introduction.html</loc>
+  </url>
+  
+  <url>
+    <loc>https://aws-hugo.web.app/10_prerequisites.html</loc>
+  </url>
+  
+  <url>
+    <loc>https://aws-hugo.web.app/30_pre_build_quality_assurance/10_summary.html</loc>
+  </url>
+  
+  <url>
+    <loc>https://aws-hugo.web.app/20_getting-started/10_permises.html</loc>
+  </url>
+  
+  <url>
+    <loc>https://aws-hugo.web.app/20_getting-started.html</loc>
+  </url>
+  
+  <url>
+    <loc>https://aws-hugo.web.app/05_introduction/20_key_tenets_of_testing_in_devops.html</loc>
+  </url>
+  
+  <url>
+    <loc>https://aws-hugo.web.app/05_introduction/30_whats_in_store_for_practitioners.html</loc>
+  </url>
+  
+  <url>
+    <loc>https://aws-hugo.web.app/30_pre_build_quality_assurance.html</loc>
+  </url>
+  
+  <url>
+    <loc>https://aws-hugo.web.app/45_build_deploy_assurance/30_summary.html</loc>
+  </url>
+  
+  <url>
+    <loc>https://aws-hugo.web.app/46_functional_assurance/30_summary.html</loc>
+  </url>
+  
+  <url>
+    <loc>https://aws-hugo.web.app/47_experience_assurance/30_summary.html</loc>
+  </url>
+  
+  <url>
+    <loc>https://aws-hugo.web.app/48_end_to_end_testing_assurance/30_summary.html</loc>
+  </url>
+  
+  <url>
+    <loc>https://aws-hugo.web.app/20_getting-started/30_workshop_structure_rules.html</loc>
+  </url>
+  
+  <url>
+    <loc>https://aws-hugo.web.app/20_getting-started/40_getting_your_environment_ready.html</loc>
+  </url>
+  
+  <url>
+    <loc>https://aws-hugo.web.app/45_build_deploy_assurance.html</loc>
+    <lastmod>2019-08-11T19:21:12-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://aws-hugo.web.app/46_functional_assurance.html</loc>
+    <lastmod>2019-08-11T19:21:12-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://aws-hugo.web.app/47_experience_assurance.html</loc>
+    <lastmod>2019-08-11T19:21:12-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://aws-hugo.web.app/48_end_to_end_testing_assurance.html</loc>
+    <lastmod>2019-08-11T19:21:12-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://aws-hugo.web.app/50_conclusion.html</loc>
+  </url>
+  
+  <url>
+    <loc>https://aws-hugo.web.app/60_clean_up.html</loc>
+  </url>
+  
+  <url>
+    <loc>https://aws-hugo.web.app/categories.html</loc>
+  </url>
+  
+  <url>
+    <loc>https://aws-hugo.web.app/tags.html</loc>
+  </url>
+  
+</urlset>

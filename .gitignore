@@ -29,8 +29,10 @@ msbuild.wrn
 .vs/
 .vscode/
 
-# JetBrains IDEs
-.idea
-
 # Node Modules
 node_modules/
+
+#firebase
+public/
+firebase.json
+.firebaserc

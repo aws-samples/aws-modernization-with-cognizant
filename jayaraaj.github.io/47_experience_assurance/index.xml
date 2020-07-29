@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Module 4: Experience Assurance on AWS DevSecOps Modernization Workshop</title>
+    <link>https://aws-hugo.web.app/47_experience_assurance.html</link>
+    <description>Recent content in Module 4: Experience Assurance on AWS DevSecOps Modernization Workshop</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 11 Aug 2019 19:21:12 -0700</lastBuildDate>
+    
+	<atom:link href="https://aws-hugo.web.app/47_experience_assurance/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Introduction</title>
+      <link>https://aws-hugo.web.app/47_experience_assurance/1_introduction.html</link>
+      <pubDate>Sun, 11 Aug 2019 19:21:12 -0700</pubDate>
+      
+      <guid>https://aws-hugo.web.app/47_experience_assurance/1_introduction.html</guid>
+      <description>Objective: To validate application’s non-functional behavior such as performance, accessibility &amp;amp; security meet acceptable / pre-defined benchmarks Non-functional behaviors are “How” the system should perform its functions. In today’s digital age, it’s not just about if an application works, but more importantly, how it works. Testing an application to validate its performance, security and accessibility is commonly known as Non-functional Testing (NFT).
+Shift left with NFT, allows developers / testers to leverage scaled-down environments for non-functional testing at a component level as and when, they are developed.</description>
+    </item>
+    
+    <item>
+      <title>Build &amp; Execute</title>
+      <link>https://aws-hugo.web.app/47_experience_assurance/2_build_execute.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://aws-hugo.web.app/47_experience_assurance/2_build_execute.html</guid>
+      <description>PIPELINE CREATION AND EXECUTION Please complete the Module 2: Post-Build QA before commencing with this module. This will ensure you have deployed the build on the server successfully before executing the Experience test suits during this module.
+ Execute the cloud formation template from Cloud9 to automatically create the Experience Assurance pipeline.
+aws cloudformation create-stack --stack-name ExperienceAssurance --template-url https://aws-wrkshp-artifacts.s3-eu-west-1.amazonaws.com/awsworkshop_infrastructure_artefacts/awsworkshop_experience_assurance.json --capabilities CAPABILITY_NAMED_IAM Go to the CloudFormation console and check the status of your pipeline stack creation named ‘ExperienceAssurance’.</description>
+    </item>
+    
+    <item>
+      <title>Debug &amp; Fix</title>
+      <link>https://aws-hugo.web.app/47_experience_assurance/3_debug_fix.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://aws-hugo.web.app/47_experience_assurance/3_debug_fix.html</guid>
+      <description>DEBUGGING AND RE-EXECUTION Security test build has failed because the X-Frame-Options was not set in the response headers and this was detected by the ZAP Proxy. This rule is set as “FAIL” in the gen.conf file for ZAP tool.
+To verify this, go to “Report Dashboard” &amp;ndash;&amp;gt; Go “Experience Assurance” section and Click on the “Rule Report” link under the “Security Test” section. (This will open the security_test_output.txt in browser).</description>
+    </item>
+    
+    <item>
+      <title>Report &amp; Analysis</title>
+      <link>https://aws-hugo.web.app/47_experience_assurance/4_test_reports_analysis.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://aws-hugo.web.app/47_experience_assurance/4_test_reports_analysis.html</guid>
+      <description>TEST REPORT ANALYSIS Go to the S3 bucket created as part of this demo in the previous modules. Reports and other files can be found in the s3 bucket inside the respective folders, for further analysis and understanding
+You can now refresh the reporting dashboard and review the test results. Refer the dashboard screenshot as shown below:
+Additionally, Practitioners can access Cognizant Thought Leadership on Customer Experience, by referring the blog by our Market Expert titled - “From &amp;lsquo;Ensuring Customer Experience’ to &amp;lsquo;Assuring Trust’: Rethinking the Role of QA”.</description>
+    </item>
+    
+    <item>
+      <title>Tikk Talk</title>
+      <link>https://aws-hugo.web.app/47_experience_assurance/5_tikk_talk.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://aws-hugo.web.app/47_experience_assurance/5_tikk_talk.html</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Summary</title>
+      <link>https://aws-hugo.web.app/47_experience_assurance/30_summary.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://aws-hugo.web.app/47_experience_assurance/30_summary.html</guid>
+      <description>In DevOps, it is crucial to shift non-functional testing to left to provide faster feedbacks on potential performance bottlenecks, security vulnerabilities and accessibility issues. The pipeline moves through different stages of testing and generates reports on non-functional defects, addresses test incidents and confirms the overall state of experience delivered by the application.
+For this workshop, we have only considered selective non-functional checks. However, in practice, assuring experience consists of a large gamut of non-functional tests and practices.</description>
+    </item>
+    
+  </channel>
+</rss>

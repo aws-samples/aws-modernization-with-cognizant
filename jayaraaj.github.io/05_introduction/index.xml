@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Introduction on AWS DevSecOps Modernization Workshop</title>
+    <link>https://aws-hugo.web.app/05_introduction.html</link>
+    <description>Recent content in Introduction on AWS DevSecOps Modernization Workshop</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="https://aws-hugo.web.app/05_introduction/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>DevOps puts Testing at the Core</title>
+      <link>https://aws-hugo.web.app/05_introduction/10_devops_puts_testing_at_the_core.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://aws-hugo.web.app/05_introduction/10_devops_puts_testing_at_the_core.html</guid>
+      <description>Previously, there was a popular misconception about DevOps, that bringing development and operations teams together would result in greater efficiency, eliminating the very need for testing. However, it was quickly realized that this was not the case. On the contrary, DevOps transformed the role of testing from that of a gatekeeper to a guardian of quality across the lifecycle. This transition eliminates testing silos and instead embeds it in each stage of the DevOps process to deliver much needed quality at speed.</description>
+    </item>
+    
+    <item>
+      <title>Key Tenets of Testing in DevOps</title>
+      <link>https://aws-hugo.web.app/05_introduction/20_key_tenets_of_testing_in_devops.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://aws-hugo.web.app/05_introduction/20_key_tenets_of_testing_in_devops.html</guid>
+      <description>Testing in DevOps is fundamentally different from traditional legacy testing approaches. For a DevOps program to succeed, testing needs to be:
+ Collaborative: Dev, Test and Ops works together as one team to ensure a robust application is built correctly the first time, with quality becoming a shared responsibility across the organization. Automation drives QA and expects enhanced skills and mindset change. Continuous: Testing is executed automatically and continuously throughout the DevOps lifecycle.</description>
+    </item>
+    
+    <item>
+      <title>In-store for Practitioners</title>
+      <link>https://aws-hugo.web.app/05_introduction/30_whats_in_store_for_practitioners.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://aws-hugo.web.app/05_introduction/30_whats_in_store_for_practitioners.html</guid>
+      <description>To introduce you to the world of testing in DevOps, we have planned hands-on exercises and induced real time problems, that we will de-bug and fix together in this workshop.
+ Why QA is integral to a successful DevOps implementation How testing in DevOps is different than traditional testing What types and stages of testing are essential for end-to-end quality assurance How to build and execute the continuous testing pipeline What are the various tooling alternatives, enablers and best practices in testing for DevOps How to integrate open source tool-based automation suites in the pipeline How to debug typical issues and fix your continuous testing pipeline  Let us get the jargons out of the way in Software Testing We would like to throw some light on a few common jargons in Software Testing that have been extensively used in this workshop.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Getting Started on AWS DevSecOps Modernization Workshop</title>
+    <link>https://aws-hugo.web.app/20_getting-started.html</link>
+    <description>Recent content in Getting Started on AWS DevSecOps Modernization Workshop</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="https://aws-hugo.web.app/20_getting-started/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>The Premise</title>
+      <link>https://aws-hugo.web.app/20_getting-started/10_permises.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://aws-hugo.web.app/20_getting-started/10_permises.html</guid>
+      <description>Mythical Mysfits (MM) is an e-commerce giant offering online shopping across a wide array of products. It services global customers via an omni-channel portal.
+Problem Statement - MM intends to speed up their time to market with frequent releases to production.They have implemented a development pipeline, however their testing still follows a traditional waterfall approach, leading to issues such as:
+ Increasing efforts spent on testing and re-testing the code changes Defects detected late in testing, costing significant effort, time and resources Siloed automation due to a hybrid tooling landscape Prolonged testing cycles impacting the overall speed of delivery to production Too many production incidents Poor user feedbacks  The Assignment - MM has commissioned Cognizant Consultants to help them modernize their testing practices.</description>
+    </item>
+    
+    <item>
+      <title>The Structure</title>
+      <link>https://aws-hugo.web.app/20_getting-started/30_workshop_structure_rules.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://aws-hugo.web.app/20_getting-started/30_workshop_structure_rules.html</guid>
+      <description>Scope: For this workshop, we will focus on the execution stage of the testing pipeline and not the complete testing life cycle.
+  Modular Structure: This workshop constitutes of five modules that explain a continuous testing pipeline in a chronological sequence. Each module provides an overview, relevant concepts and practices, before getting into the pipeline execution. In order to get the best out this workshop, we recommend you to follow the sequence and build your pipeline in progression.</description>
+    </item>
+    
+    <item>
+      <title>The Environment</title>
+      <link>https://aws-hugo.web.app/20_getting-started/40_getting_your_environment_ready.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://aws-hugo.web.app/20_getting-started/40_getting_your_environment_ready.html</guid>
+      <description>Creating Your Environment For this workshop, you will need to setup and configure your environment as below:
+ Spin AWS Cloud9, leveraging CloudFormation to create source repositories and foundation infrastructure Run a few custom scripts.  This will build the required infrastructure and pre-configured pipelines required for this workshop so that you can focus on the learning without worrying about the peripherals.
+Deploy &amp;amp; Launch AWS Cloud9 There are several ways you can provision AWS Cloud9, however, for this workshop, we will use AWS Management Console  to create our environment.</description>
+    </item>
+    
+  </channel>
+</rss>

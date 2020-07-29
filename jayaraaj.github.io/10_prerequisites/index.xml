@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Prerequisites on AWS DevSecOps Modernization Workshop</title>
+    <link>https://aws-hugo.web.app/10_prerequisites.html</link>
+    <description>Recent content in Prerequisites on AWS DevSecOps Modernization Workshop</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="https://aws-hugo.web.app/10_prerequisites/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Create an AWS account</title>
+      <link>https://aws-hugo.web.app/10_prerequisites/1_aws_account.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://aws-hugo.web.app/10_prerequisites/1_aws_account.html</guid>
+      <description>Your account must have the ability to create new IAM roles and scope other IAM permissions.
+ If you already have an AWS account, and have IAM Administrator access, you can skip this page.
+   If you do not already have an AWS account with Administrator access: create one now
+  Once you have an AWS account, ensure you are following the remaining workshop steps as an IAM user with administrator access to the AWS account: Create a new IAM user to use for the workshop</description>
+    </item>
+    
+    <item>
+      <title>Register with Cognizant</title>
+      <link>https://aws-hugo.web.app/10_prerequisites/2_create_a_cognizant_account_to_access_workshop_content.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://aws-hugo.web.app/10_prerequisites/2_create_a_cognizant_account_to_access_workshop_content.html</guid>
+      <description>In addition to the workshop itself, we are pleased to offer you several thought leadership and research pieces about testing from a few experienced testing experts at Cognizant. We ask that you kindly register yourself at: https://www.cognizant.com/application-modernization
+ Steps for Registration  Click on the Link Provide following input in the given form:   First and Last Name Update Company Update Email ID Update Industry Update Job Title  Click on Register Button  Estimated time required to complete registration: 2 minutes.</description>
+    </item>
+    
+  </channel>
+</rss>

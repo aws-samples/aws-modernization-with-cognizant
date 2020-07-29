@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Clean-up on AWS DevSecOps Modernization Workshop</title>
+    <link>https://aws-hugo.web.app/60_clean_up.html</link>
+    <description>Recent content in Clean-up on AWS DevSecOps Modernization Workshop</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="https://aws-hugo.web.app/60_clean_up/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Clean-up Activities</title>
+      <link>https://aws-hugo.web.app/60_clean_up/1_cleanup.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://aws-hugo.web.app/60_clean_up/1_cleanup.html</guid>
+      <description>When you are ready, just follow these last two steps to clean up the resources that were setup just for this workshop.
+In order to prevent charges to your account, we recommend cleaning up the infrastructure that was created. If you plan to keep things running, so you can examine the workshop a bit more, then please remember to do the clean-up when you are done. It is very easy to leave things running in an AWS account, forget about it, and then accrue charges.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Conclusion on AWS DevSecOps Modernization Workshop</title>
+    <link>https://aws-hugo.web.app/50_conclusion.html</link>
+    <description>Recent content in Conclusion on AWS DevSecOps Modernization Workshop</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="https://aws-hugo.web.app/50_conclusion/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Recap</title>
+      <link>https://aws-hugo.web.app/50_conclusion/1_recap.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://aws-hugo.web.app/50_conclusion/1_recap.html</guid>
+      <description>Congratulations Well Done! With your help we have successfully demonstrated to Mythical Mysfits team, how to orchestrate their Testing in DevOps and enable earlier defect detection and higher-quality deployments.
+You have successfully completed the “Test Automation in DevOps” workshop, embracing quality assurance across the lifecycle.
+We have accomplished In this workshop, we have built, fixed and executed the Continuous Testing pipeline. Along with this hands-on implementation, you now also have a high-level understanding on testing in DevOps, including various testing stages, their objectives, challenges, enablers and some industry best practices.</description>
+    </item>
+    
+    <item>
+      <title>Next Step</title>
+      <link>https://aws-hugo.web.app/50_conclusion/3_next_step.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://aws-hugo.web.app/50_conclusion/3_next_step.html</guid>
+      <description>Now that you have built your own Testing Pipeline, there are multiple ways in which you can explore the infinite possibilities in Testing that the DevOps world offers.
+ Integrate your pipeline with Slack channel to trigger and monitor the execution from Slack interface rather than Cloud9 (or) AWS console Replace (or) append the tooling stack by creating your own automation test with new tools and frameworks Implement Code progression in the pipelines to demonstrate how code base moves form Dev to Production based on the quality gates at every stage Execute your mobile testing on AWS Device Farm Add additional testing types such as integration testing and UAT before releasing the code to production Integrate AI based BOTS for intelligent test execution based on the code committed and possible business impact.</description>
+    </item>
+    
+    <item>
+      <title>Final Thoughts </title>
+      <link>https://aws-hugo.web.app/50_conclusion/4_final_thoughts.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://aws-hugo.web.app/50_conclusion/4_final_thoughts.html</guid>
+      <description>Given the nature of this workshop, we have demonstrated just a snapshot of the test execution stage and not the overall testing lifecycle. The test strategy and approach for any system landscape depends on the technology stack, development methodology, tools &amp;amp; framework selections but most importantly testing is driven by the associated business risks and expected customer experience.
+We recommend you browse through the Cognizant portal for Thought Leadership content especially around whitepapers and blogs written by industry experts and Cognizant automation consultants.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Module 2: Post-Build QA on AWS DevSecOps Modernization Workshop</title>
+    <link>https://aws-hugo.web.app/45_build_deploy_assurance.html</link>
+    <description>Recent content in Module 2: Post-Build QA on AWS DevSecOps Modernization Workshop</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 11 Aug 2019 19:21:12 -0700</lastBuildDate>
+    
+	<atom:link href="https://aws-hugo.web.app/45_build_deploy_assurance/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Introduction</title>
+      <link>https://aws-hugo.web.app/45_build_deploy_assurance/1_introduction.html</link>
+      <pubDate>Sun, 11 Aug 2019 19:21:12 -0700</pubDate>
+      
+      <guid>https://aws-hugo.web.app/45_build_deploy_assurance/1_introduction.html</guid>
+      <description>Objective: To check the readiness of the build for testing and preparing the environment for subsequent test executions In this stage, developers and testers focus on a set of tests adequate to ensure critical functionalities work as required in the build and these tests are also known as build verification testing, confidence testing (or) build acceptance testing. PIPELINE OVERVIEW In this module, you will explore the Post Build Quality Assurance stage of the overall testing pipeline for DevOps.</description>
+    </item>
+    
+    <item>
+      <title>Build &amp; Execute</title>
+      <link>https://aws-hugo.web.app/45_build_deploy_assurance/2_build_execute.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://aws-hugo.web.app/45_build_deploy_assurance/2_build_execute.html</guid>
+      <description>PIPELINE CREATION AND EXECUTION To deploy the pipeline, run the following commands in Cloud9’s terminal:
+aws cloudformation create-stack --stack-name PostBuildQA --template-url https://aws-wrkshp-artifacts.s3-eu-west-1.amazonaws.com/awsworkshop_infrastructure_artefacts/awsworkshop_postbuild_qa.json --capabilities CAPABILITY_NAMED_IAM Go to the CloudFormation console and check the status of your pipeline stack creation named &amp;lsquo;PostBuildQA&amp;rsquo;. It should state - “CREATE_IN_PROGRESS”.
+This step takes approximately 1 minute and if successful, you can see the status of STACK - ‘PostBuildQA’ as “CREATE_COMPLETE”, as shown in the screenshot below:</description>
+    </item>
+    
+    <item>
+      <title>Report &amp; Analysis</title>
+      <link>https://aws-hugo.web.app/45_build_deploy_assurance/3_test_reports_analysis.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://aws-hugo.web.app/45_build_deploy_assurance/3_test_reports_analysis.html</guid>
+      <description>TEST REPORT ANALYSIS You can now refresh the reporting dashboard and review the smoke test results for this stage.
+Refer the screenshot as shown below for details:
+User should be able to see the test summary of the recently executed CodeBuild Project for Smoke Testing. For the detailed report, navigate to detailed report for the corresponding testing type.
+Refer the screenshot as shown below for details:
+icon to be clicked on the right side of each test step, for the corresponding image captured during smoke test execution.</description>
+    </item>
+    
+    <item>
+      <title>The Enablers </title>
+      <link>https://aws-hugo.web.app/45_build_deploy_assurance/4_the_enablers.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://aws-hugo.web.app/45_build_deploy_assurance/4_the_enablers.html</guid>
+      <description>In addition to the practices we discussed so far, Service Virtualization (SV) and Test Data Management (TDM) are two enablers that are most critical to the successful implementation of QA in DevOps, since they both result in laying a strong foundation for testing in general and automation in specific. As this workshop focuses on the execution stage, let us discuss their basic concepts and high-level approach.
+Service Virtualization Unavailability of environment needed for testing, is the one of the key bottleneck for Continuous Testing in DevOps.</description>
+    </item>
+    
+    <item>
+      <title>Tikk Talk</title>
+      <link>https://aws-hugo.web.app/45_build_deploy_assurance/5_tikk_talk.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://aws-hugo.web.app/45_build_deploy_assurance/5_tikk_talk.html</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Summary</title>
+      <link>https://aws-hugo.web.app/45_build_deploy_assurance/30_summary.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://aws-hugo.web.app/45_build_deploy_assurance/30_summary.html</guid>
+      <description>As discussed in this module, Post-Build Quality Assurance includes a round of detailed build hardening and build verification testing, before the build is deployed. The build deployment is followed by a quick round Configuration and Smoke testing, to get a rapid feedback on the readiness of that build, for elaborate testing cycles in terms of its availability and accessibility. The idea is to raise quick alarms with the development (or) environment teams in case of any showstoppers for testing (or) to give a green signal to QA teams to proceed with subsequent test executions.</description>
+    </item>
+    
+  </channel>
+</rss>
