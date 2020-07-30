@@ -3,7 +3,6 @@
 
     --MAIN-TEXT-color:#323235; /* Color of text by default */
     --MAIN-TITLES-TEXT-color: #778ba5; /* Color of titles h2-h3-h4-h5 */
-    --MAIN-TITLES-TEXT-CTS-color: #328DFF; /* Color of titles h2-h3-h4-h5 */
     --MAIN-LINK-color:#4881cd; /* Color of links */
     --MAIN-LINK-HOVER-color:#599af1; /* Color of hovered links */
     --MAIN-ANCHOR-color: #4881cd; /* color of anchors on titles */
@@ -37,7 +36,7 @@ textarea:focus, input[type="email"]:focus, input[type="number"]:focus, input[typ
 }
 
 h2, h3, h4, h5 {
-    color: var(--MAIN-TITLES-TEXT-CTS-color) !important;
+    color: var(--MAIN-TITLES-TEXT-color) !important;
 }
 
 a {
@@ -148,4 +147,8 @@ div.notices p:first-child:before {
     content: #F06A;
     font-weight: 900; /* Fix version 5.0.9 */
     left: 10px;
+}
+
+#chapter p, #chapter h3 {
+    text-align: left;
 }
