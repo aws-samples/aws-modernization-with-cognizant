@@ -20,6 +20,7 @@ In this module, you will explore the Post Build Quality Assurance stage of the o
 ![Testing Functionalities](/images/module2/module-2_pipe.png)
 
 This module consists of two stages viz. **Code Deployment** and **Smoke Testing**. 
+
 - **Deployment of Application:** Leverage AWS System Manager for deploying back-end and front-end components of the application under test. This is achieved via SSM Document which executes remote deployment run commands on the associated EC2 instances.
 
 - **Smoke Testing:** Balanced mix of API and UI based test automation in the form of Smoke (or) Build Verification Test is implemented using the open source tools like Selenium and RestAssured with BDD Cucumber Framework. The test scripts will be executed using AWS CodeBuild and the results will be saved in the directory awswrkshp_build_deploy_assurance_smoke/target/extent-reports in the target s3 bucket.

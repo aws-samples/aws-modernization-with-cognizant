@@ -1,0 +1,20 @@
+[debug] [2020-08-06T14:30:14.929Z] ----------------------------------------------------------------------
+[debug] [2020-08-06T14:30:14.931Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\297633\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy
+[debug] [2020-08-06T14:30:14.931Z] CLI Version:   8.6.0
+[debug] [2020-08-06T14:30:14.931Z] Platform:      win32
+[debug] [2020-08-06T14:30:14.931Z] Node Version:  v12.16.3
+[debug] [2020-08-06T14:30:14.932Z] Time:          Thu Aug 06 2020 20:00:14 GMT+0530 (India Standard Time)
+[debug] [2020-08-06T14:30:14.932Z] ----------------------------------------------------------------------
+[debug] [2020-08-06T14:30:14.932Z] 
+[debug] [2020-08-06T14:30:14.946Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-08-06T14:30:14.946Z] > authorizing via signed-in user
+[debug] [2020-08-06T14:30:14.947Z] [iam] checking project aws-hugo for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2020-08-06T14:30:14.949Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2020-08-06T14:30:14.949Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2020-08-06T14:30:35.990Z] [iam] error while checking permissions, command may fail: FirebaseError: Authentication Error: Your credentials are no longer valid. Please run firebase login --reauth
+
+For CI servers and headless environments, generate a new token with firebase login:ci
+[debug] [2020-08-06T14:30:35.990Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2020-08-06T14:30:35.990Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>

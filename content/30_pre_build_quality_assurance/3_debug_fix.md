@@ -56,6 +56,7 @@ The Commit Change to the **Register.test.js** file will trigger the pipeline aut
 With the successful execution of the pipeline, you should have a working instance of your application under test, deployed in ECS. 
 
 To access the application, replace the value of key ‘**ApplicationFrontEndURL_DevEnv**‘, which you have noted from the secrets (Secrets Manager) section, of the Getting Started section in below URL:
+
 - Application Under Test URL is - `http://< ApplicationFrontEndURL_DevEnv>:3000`
 
 
