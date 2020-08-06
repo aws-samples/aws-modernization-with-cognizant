@@ -113,6 +113,7 @@ As a part of this setup, you have also installed SONARQube and a customized repo
 
 
 We recommend you keep these open in your browser throughout the workshop: 
+
 - Access SONARQube dashboard: `http://<AppServer_PublicIP>:9000`
 - Access Reporting dashboard: `http://<AppServer_PublicIP >:3337` 
 

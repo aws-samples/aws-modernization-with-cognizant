@@ -42,6 +42,7 @@ Click on the pipeline and you will see the complete End-to-End (E2E) Assurance P
 As a result, of the complete pipeline being executed successfully, you should have the working instance of you Application under Test deployed in EC2 instance.
 
 To access the application, replace the value of key ‘**AppServer_PublicIP** ‘ which you have noted from the secrets (Secrets Manager) section of Getting Started section in below URL:
+
 - Application Under Test URL is  -  `http://< AppServer_PublicIP >:3000`
 
 

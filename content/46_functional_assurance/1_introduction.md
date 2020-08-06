@@ -10,6 +10,7 @@ chapter = false
 Functional behaviors are “what” the system should do. Functional testing evaluates if functions perform as expected. Functional requirements may be described and documented in business requirements specifications, epics, user stories, use cases, (or) functional specifications, or they may be undocumented. 
 
 These tests should be performed at all test levels, though the focus is different at each level. For our particular use case, we will focus on the following
+
 - UI focuses on validating business process through screens and objects
 - API focuses on back-end services leveraged by front-end elements and objects
 - Mobile refers to an RWD (Responsive Web Design) based interfaces

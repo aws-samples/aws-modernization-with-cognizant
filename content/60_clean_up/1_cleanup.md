@@ -34,6 +34,7 @@ This complete step takes approximately 5 minutes and if successful, you should s
 In the [AWS console](https://aws.amazon.com/console/), go to [CloudFormation](https://console.aws.amazon.com/cloudformation/home) and verify that none of the stacks are listed in CloudFormation and then you are done.
 
 Finally, close the Cloud9 window and manually delete your Cloud9 environment. Please follow the below steps:
+
 - In the AWS console, navigate to [Cloud9](https://console.aws.amazon.com/cloud9/home). 
 - Select your Cloud9 Environment
 - Click on Delete
