@@ -27,8 +27,6 @@ This step takes approximately 1 minute and if successful, you can see the st
 
 ![](/images/module4/b-1.png)
 
-Go to the CloudFormation console and check the status of your pipeline stack creation named ‘ExperienceAssurance’. It should state - {{% color info %}}“CREATE_IN_PROGRESS”{{% /color %}}.
-
 
 On successful creation of the pipeline, the CFN will also auto trigger the execution. You can now view the execution progress by navigating to [CodePipeline](https://console.aws.amazon.com/codesuite/codepipeline/home) and selecting **codepipeline_experience_assurance**
 
